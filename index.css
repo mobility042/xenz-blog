@@ -1,0 +1,81 @@
+*{
+
+}
+
+body{
+    background-image: linear-gradient(30deg, transparent, rgba(4, 0, 8, 0.8)), url("/img/pexels-craig-adderley-1563356.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.lay p{
+    color: white;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.adv{
+    opacity: 0.6;
+}
+
+.layout{
+    display: flex;
+    justify-content: space-between;
+}
+.lay2{
+    display: flex;
+    margin-right: 14px;
+}
+
+.lay2 ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+.lay2 ul li{
+    margin-left: 10px;
+    
+}
+
+.lay2 ul li a{
+text-decoration: none;
+color: rgb(248, 250, 247);
+}
+
+.btn{
+display: ;
+width: px;
+border-radius: 14px;
+border: none;
+background-color: #cd185e;
+color: aliceblue;
+padding: 5px 20px;
+}
+
+.btn:hover{
+    color: yellowgreen;
+    
+}
+
+.body{
+    margin: 160px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: .10px;
+    color: #fff;
+
+}
+
+.clr{
+    border-bottom: 2px solid #ed0731;
+    width: 4rem;
+    margin-top: 0;
+}
+
+.body h4{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
